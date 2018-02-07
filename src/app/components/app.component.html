@@ -1,0 +1,10 @@
+<div class="container">
+    <h1>{{title}}</h1>
+    <div class="list-group">
+        <ul>
+            <li class="list-group-item" *ngFor="let f of friends">
+                <display-friend [friend]="f"></display-friend>
+            </li>
+        </ul>
+    </div>
+</div>
